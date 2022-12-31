@@ -15,6 +15,7 @@ function Home() {
             <div className="typing">
               <ReactTyped
                 strings={['Hi,  ']}
+                startDelay={1300}
                 typeSpeed={40}
                 backSpeed={40}
                 className="typing-hi"
@@ -22,6 +23,7 @@ function Home() {
 
               <ReactTyped
                 strings={["I'm Rawitch Payakkawan  "]}
+                startDelay={1300}
                 typeSpeed={50}
                 backSpeed={40}
                 className="typing-name"
@@ -29,6 +31,7 @@ function Home() {
 
               <ReactTyped
                 strings={['Frontend Developer  ']}
+                startDelay={1300}
                 typeSpeed={50}
                 backSpeed={40}
                 className="typing-role"

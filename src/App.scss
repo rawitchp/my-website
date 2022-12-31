@@ -32,3 +32,19 @@ $primary-color: #ffd700;
   animation: fadeOut 1s 1s;
   animation-fill-mode: forwards;
 }
+
+input,
+input:focus,
+input:hover,
+input:active {
+  outline: none;
+  box-shadow: none;
+}
+
+textarea,
+textarea:focus,
+textarea:hover,
+textarea:active {
+  outline: none;
+  box-shadow: none;
+}
