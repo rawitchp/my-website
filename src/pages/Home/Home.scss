@@ -1,5 +1,7 @@
 .home-page {
   height: auto;
+  font-family: 'Pixey';
+  display: flex;
 }
 
 .typing {
@@ -38,4 +40,14 @@
   background-color: #e7f6f2;
   color: #2c3333;
   //   transition-delay: 0.3s;
+}
+
+.homepage-pic {
+  position: absolute;
+  opacity: 0;
+  animation: backInRight 2s 2s;
+  animation-fill-mode: forwards;
+  height: 1500px;
+  margin-left: -200px;
+  margin-top: -200px;
 }

@@ -1,4 +1,11 @@
 .about-page {
+  .text-zone {
+    position: absolute;
+    margin-top: 30px;
+    .typing-about > span {
+      font-size: 60px;
+    }
+  }
   a button {
     margin-top: 30px;
     position: absolute;
@@ -13,5 +20,12 @@
       border: 0px;
       color: #e7f6f2;
     }
+  }
+  div .resume-pic {
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    height: 700px;
+    box-shadow: 10px 10px 5px #2c3333;
   }
 }

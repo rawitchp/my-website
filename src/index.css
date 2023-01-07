@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Pixey';
+  src: local('Pixey'), url('./font/pixey/pixey.ttf');
+  font-weight: bold;
+}
+
 @import url('https://fonts.cdnfonts.com/css/pixeboy');
 * {
   font-family: 'Pixeboy';
