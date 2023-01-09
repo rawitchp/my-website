@@ -9,18 +9,26 @@
   flex-direction: column;
   gap: 0px;
   margin-top: 150px;
+  font-family: 'Pixeboy';
 }
 .typing-hi > span {
   color: #e7f6f2;
   font-size: 35px;
+  font-family: 'Pixeboy';
 }
 
 .typing-name > span {
   color: #e7f6f2;
   font-size: 70px;
+  font-family: 'Pixeboy';
+}
+
+.typing-role > span {
+  font-family: 'Pixeboy';
 }
 
 .contact-btn {
+  font-family: 'Pixeboy';
   display: flex;
   justify-content: center;
   margin-top: 50px;
