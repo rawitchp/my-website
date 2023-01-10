@@ -11,6 +11,7 @@
     width: 440px;
     position: relative;
     // margin-top: 80px;
+    margin-left: 110px;
   }
   .email {
     font-size: 50px;
@@ -98,6 +99,19 @@
     }
     a .li-icon {
       color: #0a66c2;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .contact-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    form {
+      margin-top: 100px;
     }
   }
 }

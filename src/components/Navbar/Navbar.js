@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.scss';
+// import Logo from '../../pics/logo.png';
 
 function Navbar() {
   return (

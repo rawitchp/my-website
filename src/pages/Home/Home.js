@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import ReactTyped from 'react-typed';
 import Navbar from '../../components/Navbar/Navbar';
 import './Home.scss';
-import Profile from '../../pics/Profile.png';
+import Profile2 from '../../pics/Profile2.png';
 
 function Home() {
   return (
@@ -41,9 +41,8 @@ function Home() {
                 CONTACT ME
               </NavLink>
             </div>
-            <div>
-              <img src={Profile} alt="" className="homepage-pic" />
-            </div>
+
+            <img src={Profile2} alt="" className="homepage-pic" />
           </div>
         </div>
       </>

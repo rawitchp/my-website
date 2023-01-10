@@ -19,7 +19,7 @@ function About() {
             backSpeed={40}
             className="typing-about"
           ></ReactTyped>
-          <div>
+          <div className="detail">
             My name is Rawitch Payakkawan. You can call me Mix. I am studying at
             Kasetsart University, Faculty of Engineering, Major in Computer
             engineering. I have been learning a lot of subjects such as problem
@@ -35,7 +35,7 @@ function About() {
             backSpeed={40}
             className="typing-about"
           ></ReactTyped>
-          <div>
+          <div className="detail">
             2020-2023 <br />
             Kasetsart University (third year)
             <br />
@@ -113,36 +113,36 @@ function About() {
           ></ReactTyped>
           <div>
             <div>
-              <div>KUeat (in process)</div>
-              <span>
+              <div className="topic">KUeat (in process)</div>
+              <div className="detail">
                 KUeat is a review website for KU students to review restaurant
                 in Kasetsart University.
-              </span>
+              </div>
             </div>
             <br />
             <div>
-              <div>Mrw Store</div>
-              <span>
+              <div className="topic">Mrw Store</div>
+              <div className="detail">
                 Mrw Store is an e-commerce website that use Redux concept and
                 use PayPal payment.
-              </span>
+              </div>
             </div>
             <br />
             <div>
-              <div>KUlony</div>
-              <span>
+              <div className="topic">KUlony</div>
+              <div className="detail">
                 KUlony is a social media website for KU students to interact
                 with each other.
-              </span>
+              </div>
             </div>
             <br />
             <div>
-              <div>YAYA FEVER</div>
-              <span>
+              <div className="topic">YAYA FEVER</div>
+              <div className="detail">
                 YAYA FEVER project is a tree-managing website. It can water the
                 plants automatically, check humidity, check height and sell
                 plants.
-              </span>
+              </div>
             </div>
             <br />
           </div>

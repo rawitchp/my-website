@@ -2,6 +2,7 @@
   height: auto;
   font-family: 'Pixey';
   display: flex;
+  margin-left: 100px;
 }
 
 .typing {
@@ -55,7 +56,23 @@
   opacity: 0;
   animation: backInRight 2s 2s;
   animation-fill-mode: forwards;
-  height: 1500px;
-  margin-left: -200px;
-  margin-top: -200px;
+  height: 1000px;
+  margin-left: -180px;
+  margin-top: -180px;
+  right: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .home-page {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .homepage-pic {
+    margin: 0px;
+    align-items: center;
+    position: fixed;
+    margin-top: 1200px;
+  }
 }
