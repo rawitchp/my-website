@@ -5,7 +5,7 @@ import ReactTyped from 'react-typed';
 import Navbar from '../../components/Navbar/Navbar';
 import './Home.scss';
 import Profile2 from '../../pics/Profile2.png';
-
+import Logo from '../../pics/logo.png';
 function Home() {
   return (
     <>
@@ -41,8 +41,12 @@ function Home() {
                 CONTACT ME
               </NavLink>
             </div>
-
-            <img src={Profile2} alt="" className="homepage-pic" />
+            <div className="pic-container">
+              <img src={Profile2} alt="" className="homepage-pic" />
+            </div>
+            <div>
+              <img src={Logo} alt="logo" className="logo-pic" />
+            </div>
           </div>
         </div>
       </>
