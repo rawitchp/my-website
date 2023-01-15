@@ -14,7 +14,7 @@ import {
 function Contact() {
   const form = useRef();
   const sendEmail = (e) => {
-    e.preventDefault();
+    // e.stopPropagation();
 
     emailjs
       .sendForm(
@@ -32,6 +32,7 @@ function Contact() {
           alert('Failed to send the message, please try again');
         }
       );
+    e.nativeEvent.stopImmediatePropagation();
   };
   return (
     <div>
